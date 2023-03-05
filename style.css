@@ -1,0 +1,130 @@
+body{
+    
+    background-image: url(./images/bg-stars.svg );
+    background-color: #2f2439;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 6.13636px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 140px;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+
+h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7px;
+    line-height: 9px;
+    text-align: center;
+    letter-spacing: 2.95937px;
+    color: #8385A9;
+    margin: 20px;
+}
+
+
+
+
+.one{
+    height: 70px;
+    width: 70px;
+    background: #343650;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 60px;
+    color: #FB5E84;
+}
+
+.two{
+    height: 70px;
+    width: 70px;
+    background: #343650;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 60px;
+    color: #FB5E84;
+    margin: 20%;
+}
+
+.three{
+    height: 70px;
+    width: 70px;
+    background: #343650;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 60px;
+    color: #FB5E84;
+}
+
+.four{
+    height: 70px;
+    width: 70px;
+    background: #343650;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 60px;
+    color: #FB5E84;
+    margin: 20px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/pattern-hills.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.icons img{
+    margin: 5px; 
+    width: 20px;
+    height: 20px;   
+}
+
+.text-cont{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-110px);
+}
+
+/* tablet */
+
+@media screen and (min-width: 768px) {
+    .text-cont{
+        display: flex;
+        justify-content: center;
+        transform: translateY(-110px);
+    }
+
+    .two{
+        margin: 20px;
+    }
+
+    .four{
+        margin: 20px;
+    }
+
+}
